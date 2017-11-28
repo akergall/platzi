@@ -1,0 +1,25 @@
+{
+  "name": "plat",
+  "version": "0.1.0",
+  "description": "nada importante, solo una prueba",
+  "main": "dist/src/plat.js",
+  "scripts": {
+    "build": "babel src/plat.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/akergall/platzi"
+  },
+  "keywords": [
+    "platzi"
+  ],
+  "author": "Ariel Kergall <ariel.kergall@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
